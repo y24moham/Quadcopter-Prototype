@@ -13,6 +13,10 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 - Attempted to build a brushless ESC (electronic speed controller) from scratch using an arduino and a custom PCB, following the design here (https://youtu.be/8LXPcJD6hEA?si=JXzT3ylQ1kq5TrVN), but was unsuccessful due to the unavailability of some components and limited PCB making ability.
 
+**Quadcopter testing demo**
+
+Check MP4 file in repo, or follow this link: https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/view?usp=sharing
+
 **How it works**
 
 - The Arduino reads angular rate data from the gyrometer sensor.
