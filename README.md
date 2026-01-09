@@ -1,6 +1,14 @@
 # Quadcopter-Prototype
 This project is a ground-up quadcopter prototype focused on building and validating the core control stack needed for stable flight from scratch using regular arduino, and all the additional required modules (Transmitter/Receiver, Gyro, etc.). The main goal was to connect motor outputs to sensor feedback and test a closed-loop stabilization approach before moving to full-frame integration.
 
+## Project Goals
+- Build a ground-up quadcopter control stack on a regular Arduino, integrating the required modules (gyro, transmitter/receiver, motor control hardware) and components available.
+- Implement and validate a closed-loop stabilization algorithm in C++, using real gyro feedback to drive motor outputs.
+- Design a reliable sensor-to-actuator pipeline (gyro → control loop → motor commands) that can be tested and tuned on real hardware before full-frame integration.
+- Develop a custom RC transmitter/receiver from scratch using Arduino + NRF24 (with joysticks and supporting circuitry) to support manual control as an alternative to automated flight.
+- Prototype the hardware interfaces needed for expansion, including prototype PCBs and an attempted DIY brushless ESC approach with recycled brushless DC motors from old Hard discs.
+- Establish a clear path to full integration: scaling from single-axis bench testing to multi-axis stabilization with additional ESCs and sensors (GPS/altimeter) for future flight-ready behavior.
+
 ## What I built
 - An Arduino-based control system written in C++ implementing a closed-loop control algorithm for stabilization.
 - Prototype circuit boards used to interface the Arduino with the brushless motor/propeller control hardware.
