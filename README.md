@@ -8,7 +8,7 @@ This project is a ground-up quadcopter prototype focused on building and validat
 - **Sensors:** MPU-6050 Six-Axis (Gyro + Accelerometer)
 - **Motor Control:** Commertial and recycled brushless motor/propeller control interface (ESC)
 - **Hardware:** Prototype circuit boards (custom PCB / breadboard)/Aluminum and wooden rods
-- **Input Devices:** Joysticks (RC remote)
+- **Input Devices:** Joysticks (Arduino built RC remote)
 - **Tools:** Arduino IDE, basic bench testing/logging through Serial Monitor
 
 ## Project Goals
