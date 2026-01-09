@@ -15,7 +15,7 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 **Quadcopter testing demo**
 
-Check MP4 file in repo, or follow this link: https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/view?usp=sharing
+Check MP4 demo file in repo, or follow this link: https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/view?usp=sharing
 
 **How it works**
 
