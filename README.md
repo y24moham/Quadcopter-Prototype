@@ -33,6 +33,6 @@ Development was paused at the control-loop testing stage (due to the inavailabil
 
 - Tune control parameters and filtering to improve stability and reduce noise sensitivity.
 
-- Expand from single-axis testing to multi-axis stabilization.
+- Expand from single-axis testing to multi-axis stabilization with all necessary additional components.
 
-- Integrate additional sensors (GPS, Altimeter,etc.) and move toward full flight-ready integration automatically or through the transmitter sinal.
+- Integrate additional sensors (GPS, Altimeter,etc.) and move toward full flight-ready integration through automated flight path or transmitter sinal.
