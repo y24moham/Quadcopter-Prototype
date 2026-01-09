@@ -9,7 +9,7 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 - A basic hardware test setup that ties together the gyrometer (gyro) sensor output with motor speed control, allowing control-loop behavior to be tested with real signals.
 
-- Custom built RC remote and receiver module from scratch, using Arduino, NRF24L01 Wireless Transceiver module, joysticks, and other necessary circuit components.
+- Custom built RC remote and receiver module from scratch, using Arduino, NRF24 Wireless Transceiver module, joysticks, and other necessary circuit components, following a similar design to this here, with necessary modifications and alternate components (https://www.youtube.com/watch?v=aztm_8qGVfc&list=PLsR1AO4QH1AwEh7BZHamzsNBO-Ud-pGBW&index=3).
 
 - Attempted to build a brushless ESC (electronic speed controller) from scratch using an arduino and a custom PCB, following the design here (https://youtu.be/8LXPcJD6hEA?si=JXzT3ylQ1kq5TrVN), but was unsuccessful due to the unavailability of some components and limited PCB making ability.
 
