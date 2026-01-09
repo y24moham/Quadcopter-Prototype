@@ -1,7 +1,7 @@
 # Quadcopter-Prototype
 This project is a ground-up quadcopter prototype focused on building and validating the core control stack needed for stable flight from scratch using regular arduino, and all the additional required modules (Transmitter/Receiver, Gyro, etc.). The main goal was to connect motor outputs to sensor feedback and test a closed-loop stabilization approach before moving to full-frame integration.
 
-##What I built
+## What I built
 
 - An Arduino-based control system written in C++ implementing a closed-loop control algorithm for stabilization.
 
@@ -13,11 +13,11 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 - Attempted to build a brushless ESC (electronic speed controller) from scratch using an arduino and a custom PCB, following the design here (https://youtu.be/8LXPcJD6hEA?si=JXzT3ylQ1kq5TrVN), but was unsuccessful due to the unavailability of some components and limited PCB making ability.
 
-##Quadcopter testing demo
+## Quadcopter testing demo
 
 Check MP4 demo file in repo, or follow this link: https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/view?usp=sharing
 
-##How it works
+## How it works
 
 - The Arduino reads angular rate data from the gyrometer sensor.
 
@@ -25,11 +25,11 @@ Check MP4 demo file in repo, or follow this link: https://drive.google.com/file/
 
 - The control loop updates motor commands to adjust propeller speed in response to measured rotation, with the intent of damping unwanted motion and improving stability.
 
-##Current status
+## Current status
 
 Development was paused at the control-loop testing stage (due to the inavailability of components such as 2 additional ESCs), specifically validating the feedback loop between the gyro readings and motor response. The emphasis at this point was on making sure the sensor-to-actuator pipeline was reliable and that control outputs behaved as expected under different test conditions.
 
-##Next steps
+## Next steps
 
 - Tune control parameters and filtering to improve stability and reduce noise sensitivity.
 
