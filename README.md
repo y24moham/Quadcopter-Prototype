@@ -1,2 +1,34 @@
 # Quadcopter-Prototype
 This project is a ground-up quadcopter prototype focused on building and validating the core control stack needed for stable flight from scratch. The main goal was to connect motor outputs to sensor feedback and test a closed-loop stabilization approach before moving to full-frame integration.
+
+**What I built**
+
+- An Arduino-based control system written in C++ implementing a closed-loop control algorithm for stabilization.
+
+- Prototype circuit boards used to interface the Arduino with the brushless motor/propeller control hardware.
+
+- A basic hardware test setup that ties together the gyrometer (gyro) sensor output with motor speed control, allowing control-loop behavior to be tested with real signals.
+
+- Custom built RC remote and receiver module from scratch, using Arduino, NRF24L01 Wireless Transceiver module, joysticks, and other necessary circuit components.
+
+- Attempted to build a brushless ESC (electronic speed controller) from scratch, but was unsuccessful due to the unavailability of some components.
+
+**How it works**
+
+- The Arduino reads angular rate data from the gyrometer sensor.
+
+- Sensor readings are processed to estimate motion dynamics and generate control corrections.
+
+- The control loop updates motor commands to adjust propeller speed in response to measured rotation, with the intent of damping unwanted motion and improving stability.
+
+**Current status**
+
+Development was paused at the control-loop testing stage (due to the inavailability of components such as 2 additional ESCs), specifically validating the feedback loop between the gyro readings and motor response. The emphasis at this point was on making sure the sensor-to-actuator pipeline was reliable and that control outputs behaved as expected under different test conditions.
+
+**Next steps**
+
+- Tune control parameters and filtering to improve stability and reduce noise sensitivity.
+
+- Expand from single-axis testing to multi-axis stabilization.
+
+- Integrate additional sensors (GPS, Altimeter,etc.) and move toward full flight-ready integration automatically or through the transmitter sinal.
