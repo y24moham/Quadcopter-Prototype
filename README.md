@@ -11,7 +11,7 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 - Custom built RC remote and receiver module from scratch, using Arduino, NRF24L01 Wireless Transceiver module, joysticks, and other necessary circuit components.
 
-- Attempted to build a brushless ESC (electronic speed controller) from scratch using an arduino and a custom PCB, following the design shown here (https://youtu.be/8LXPcJD6hEA?si=JXzT3ylQ1kq5TrVN), but was unsuccessful due to the unavailability of some components and limited PCB making ability.
+- Attempted to build a brushless ESC (electronic speed controller) from scratch using an arduino and a custom PCB, following the design here (https://youtu.be/8LXPcJD6hEA?si=JXzT3ylQ1kq5TrVN), but was unsuccessful due to the unavailability of some components and limited PCB making ability.
 
 **How it works**
 
