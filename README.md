@@ -1,7 +1,7 @@
 # Quadcopter-Prototype
 This project is a ground-up quadcopter prototype focused on building and validating the core control stack needed for stable flight from scratch using a standard **Arduino** and the required modules (transmitter/receiver, gyro, etc.). The goal was to connect motor outputs to sensor feedback and test a closed-loop stabilization approach before moving to full-frame integration.
 
-<img src="Quadcopter-Image.PNG" alt="Quadcopter Test Rig img" width="600">
+<img src="Quadcopter-Image.PNG" alt="Quadcopter Test Rig img" width="800">
 
 ## Tech Stack
 - **Language:** C++
