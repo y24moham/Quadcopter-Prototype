@@ -32,7 +32,7 @@ This project is a ground-up quadcopter prototype focused on building and validat
 
 ## Demo
 Check the MP4 demo file in the repo, or use this link:
-[https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/view?usp=sharing](https://drive.google.com/file/d/1RMSzE_in0KuofrDoc0nF74Z5vaZzTccr/view?usp=sharing)
+[[https://drive.google.com/file/d/1NxJxWkp-EyR-reV-OZMwFn3o3bTLC3V4/](https://drive.google.com/file/d/1RMSzE_in0KuofrDoc0nF74Z5vaZzTccr/)](https://drive.google.com/file/d/1DrKHoRXCtsPM3YHi0WtCFW_7Mb5viRnu/)
 
 ## How it works
 - The Arduino reads angular-rate data from the gyro sensor.
