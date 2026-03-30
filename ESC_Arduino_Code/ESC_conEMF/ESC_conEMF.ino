@@ -1,10 +1,9 @@
-/*http://www.youtube.com/c/ELECTRONOOBS
+/*
  * This is the code with EMF detection for the Arduino ESC
  * The speed control is done using a potentiometer connected on pin A0
  * You could always change it in order to have a PWM 
  * input signal to control the speed. 
  * 
- * Please, like, share and subscribe and motivate
   */
 
 int AA1=3;

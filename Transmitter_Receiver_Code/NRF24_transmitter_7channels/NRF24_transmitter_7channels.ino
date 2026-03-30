@@ -14,11 +14,10 @@
     MISO   ->   D12
 
 This code transmits 7 channels with data from pins A0, A1, A2, A3, A4, D2 and D3
-Please, like share and subscribe : https://www.youtube.com/c/ELECTRONOOBS
 */
 
 #include <SPI.h>
-#include <nRF24L01.h> //Remember to isntall this bibrry: http://www.electronoobs.com/engarduino_NRF24_lib.php
+#include <nRF24L01.h> //Remember to install the attached library in the RF24-master folder
 #include <RF24.h>
 
 const uint64_t my_radio_pipe = 0xE8E8F0F0E1LL; //Remember that this code should be the same for the receiver

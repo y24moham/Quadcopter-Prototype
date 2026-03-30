@@ -14,7 +14,6 @@
     MISO   ->   D12
 
 This code receive 7 channels and create a PPM output on digital D2 with all the values
-Please, like share and subscribe : https://www.youtube.com/c/ELECTRONOOBS
 */
 
 
